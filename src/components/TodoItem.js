@@ -1,27 +1,35 @@
-import React from "react";
-import styles from "./TodoItem.module.css";
+/* eslint-disable react/button-has-type */
+/* eslint-disable react/prop-types */
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/state-in-constructor */
+import React from 'react';
+import styles from './TodoItem.module.css';
+
 class TodoItem extends React.Component {
   state = {
     editing: false,
   };
+
   handleEditing = () => {
     this.setState({
       editing: true,
     });
   };
+
   handleUpdatedDone = (event) => {
-    if (event.key === "Enter") {
+    if (event.key === 'Enter') {
       this.setState({ editing: false });
     }
   };
+
   render() {
-    let viewMode = {};
-    let editMode = {};
+    const viewMode = {};
+    const editMode = {};
 
     if (this.state.editing) {
-      viewMode.display = "none";
+      viewMode.display = 'none';
     } else {
-      editMode.display = "none";
+      editMode.display = 'none';
     }
     return (
       <li className={styles.item}>

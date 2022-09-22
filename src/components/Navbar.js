@@ -1,3 +1,4 @@
+/* eslint-disable react/state-in-constructor */
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
