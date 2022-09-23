@@ -1,6 +1,9 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/prefer-stateless-function */
+import React from 'react';
+import TodoItem from './TodoItem';
 
-import React from "react";
-import TodoItem from "./TodoItem";
 class TodosList extends React.Component {
   render() {
     return (

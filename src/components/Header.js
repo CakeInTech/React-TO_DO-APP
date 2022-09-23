@@ -1,9 +1,10 @@
-import React from "react";
+/* eslint-disable react/state-in-constructor */
+import React from 'react';
 
 const Header = () => {
   const headerStyle = {
-    padding: "20px 0",
-    lineHeight: "1.5em",
+    padding: '20px 0',
+    lineHeight: '1.5em',
   };
   return (
     <header style={headerStyle}>

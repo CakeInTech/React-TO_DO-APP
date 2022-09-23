@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# TO-DO-List-ReactJS-APP
+ A TO-DO-List I built using ReactJS to consolidate my knowledge about React, components, props, state, and hooks.
 
-## Available Scripts
+## Built With
+- Major languages: CSS and JavaScript
+- Frameworks: ReactJS
+- Technologies used: Linters, Git, npm, Webpack
 
-In the project directory, you can run:
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You should be having [Node.js](https://nodejs.org/en/) installed on your computer
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Setup
 
-### `npm run build`
+To get a local copy up and running follow these simple example steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Navigate to a folder where you want the cloned file to appear
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Clone this repo in your terminal or git bash using the command
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   `git clone`  and use the link in the project code.
 
-### `npm run eject`
+3. run `npm install ` to install all the necessary dependencies including the linters and webpack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Navigate to the folder called Leaderboard and open this project using your editor
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. You run `npm run start` to start the local server on port 3000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+6. You also run `npm run build` to build your project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Run tests (For the linters added)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Run the following commands on your terminal:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- CSS/SCSS, run `npx stylelint "**/*.{css,scss}"`
+- Javascript `npx eslint .`
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Live demo
+- Link: 
 
-### Analyzing the Bundle Size
+## Deployment
+- Deployed using GitHub Pages
+- Link: N/A
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+👤 **Mohamed Abdulhakim**
 
-### Advanced Configuration
+> Software Developer | Currently Learning: Javascript, React, Redux, Ruby, Rails. | Good with Frontend.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [GitHub](https://github.com/MohamedCK)
+- [Twitter](https://twitter.com/MohamedCK0)
+- [LinkedIn](https://www.linkedin.com/in/mohamed-abdulhakim-2868521b6/)
+- 
+## Author 2
 
-### Deployment
+👤 **Emmanuel Simasiku**
+- GitHub: [@githubhandle](https://github.com/Mukumbuta)
+- Twitter: [@twitterhandle](https://twitter.com/Mukumbuta8)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/mukumbuta)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](../../issues/).
 
-### `npm run build` fails to minify
+## Show your support
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+- Hat tip to anyone whose code snippet was used for...
+- Inspiration
+- etc
+
+## 📝 License
+This project is [MIT](./MIT.md) licensed.
